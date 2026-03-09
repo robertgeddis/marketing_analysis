@@ -1,23 +1,19 @@
-# Spend Attribution 
+# Marketing Analysis
 
 ## 📌 Overview
-A collection of SQL queries for attributing marketing spend, calculating spend based metrics (CAC, LTV) and building dashboards.
-The goal of the work in this repository was to provide a 'single source of truth' regarding spend and turn raw data to actionable insights.
+A collection of SQL scripts analyzing and reporting full-funnel marketing performance to enable data-driven decisions across multiple markets.
 
-## 💼 Business Value & Impact
-In my previous role, these queries were instrumental in:
-* **Budgeting:** Segmenting spend by country, marketing channel, user role and vertical.  
-* **CPA Analysis:** Consolidating data from APIs with manual csv files along with internal conversion data to calculate Cost Per Acquisition.
-* **Optimization:** Identifying underperforming channels where spend did not correlate with high-quality user acquisition.
+## 📈 Marketing Insights
+* **Channel Performance:** Queries to evaluate the efficiency of various search and social acquisition channels.
+* **Marketing Claims:** User activity segmentation correlated to matching success on the platform to substantiate marketing claims (e.g. Users with a photo have x% more applications).   
+* **Lead Quality & Conversion:** Analyzing the quality of traffic by tracking conversion rates from initial landing to final customer status.
 
-## 🛠 Technical Features (SQL)
-To ensure data accuracy and performance, these scripts utilize:
-* **Common Table Expressions (CTEs):** For modular, readable code that separates data cleaning from final aggregation.
-* **Window Functions:** (e.g., `SUM() OVER(...)`) to calculate cumulative spend and running totals across time periods.
-* **Complex Joins:** Bridging disparate data sources such as manual spend files with transactional databases.
-* **Data Normalization:** Handling currency conversions and aligning spend to user and vertical matrix for reporting.
+## 🛠 Technical Implementation
+* **Multi-Source Integration:** Joining web analytics data with internal CRM data to provide a holistic view of the lifecycle funnel.
+* **Scalable CTEs:** Using Common Table Expressions to ensure that complex marketing logic remains maintainable and easy to audit.
+* **Performance Tracking:** Queries designed to feed into Tableau dashboards for real-time stakeholder reporting.
 
-## 📊 Sample Metrics Calculated
-* **CAC (Customer Acquisition Cost):** Total Spend / New Upgrades.
-* **ROAS (Return on Ad Spend):** Total Revenue / Total Spend.
-* **LTV:** Bookings / Churn 
+## 💼 Business Impact
+* **ROI Optimization:** Enabled the marketing team to base budgetary decisions based on key real-time ROI metrics.
+* **Strategic Growth:** Provided the data foundation for entering new international markets by establishing baseline performance metrics.
+* **Alignment:** Created a common language between the Marketing and Finance departments regarding performance definitions.
