@@ -8,7 +8,7 @@ A collection of SQL scripts analyzing and reporting full-funnel marketing perfor
 * **Marketing Claims:** User activity segmentation correlated to matching success on the platform to substantiate marketing claims (e.g. Users with a photo have x% more applications).   
 * **Lead Quality & Conversion:** Analyzing the quality of traffic by tracking conversion rates from initial landing to final customer status.
 
-## 🛠 Technical Implementation
+## 🛠 Technical Features
 * **Multi-Source Integration:** Joining web analytics data with internal CRM data to provide a holistic view of the lifecycle funnel.
 * **Scalable CTEs:** Using Common Table Expressions to ensure that complex marketing logic remains maintainable and easy to audit.
 * **Performance Tracking:** Queries designed to feed into Tableau dashboards for real-time stakeholder reporting.
