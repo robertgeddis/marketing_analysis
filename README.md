@@ -1,6 +1,6 @@
 # Marketing Analysis
 
-A collection of SQL scripts analyzing and reporting full-funnel marketing performance to enable data-driven decisions across multiple markets.
+This repository is a collection of SQL queries used to build customized data views, multi-channel dashboards and establish full-funnel metrics to measure performance. 
 
 ## 📈 Focus Areas
 * **Channel Performance:** Queries to evaluate the efficiency of various search and social acquisition channels.
@@ -8,7 +8,7 @@ A collection of SQL scripts analyzing and reporting full-funnel marketing perfor
 * **Lead Quality & Conversion:** Analyzing the quality of traffic by tracking conversion rates from initial landing to final customer status.
 
 ## 🛠 Technical Features
-* **Multi-Source Integration:** Joining web analytics data with internal CRM data to provide a holistic view of the lifecycle funnel.
+* **Multi-Source Integration:** Joining external API data with internal databases to provide a holistic view of the lifecycle funnel.
 * **Scalable CTEs:** Using Common Table Expressions to ensure that complex marketing logic remains maintainable and easy to audit.
 * **Performance Tracking:** Queries designed to feed into Tableau dashboards for real-time stakeholder reporting.
 
