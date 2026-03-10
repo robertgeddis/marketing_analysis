@@ -14,5 +14,5 @@ This repository is a collection of SQL queries used to build customized data vie
 
 ## 💼 Business Impact
 * **ROI Optimization:** Enabled the Marketing team to base budgetary decisions on key real-time ROI metrics.
-* **Strategic Growth:** Provided the data foundation for entering new international markets by establishing baseline performance metrics.
+* **Strategic Growth:** Provided the foundation for entering new international markets by establishing baseline performance metrics.
 * **Alignment:** Created a common language between the Marketing, Data and FP&A teams regarding performance definitions.
