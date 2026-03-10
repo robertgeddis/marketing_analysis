@@ -13,6 +13,6 @@ This repository is a collection of SQL queries used to build customized data vie
 * **Performance Tracking:** Queries designed to feed into Tableau dashboards for real-time stakeholder reporting.
 
 ## 💼 Business Impact
-* **ROI Optimization:** Enabled the marketing team to base budgetary decisions based on key real-time ROI metrics.
+* **ROI Optimization:** Enabled the Marketing team to base budgetary decisions on key real-time ROI metrics.
 * **Strategic Growth:** Provided the data foundation for entering new international markets by establishing baseline performance metrics.
-* **Alignment:** Created a common language between the Marketing and Finance departments regarding performance definitions.
+* **Alignment:** Created a common language between the Marketing, Data and FP&A teams regarding performance definitions.
