@@ -1,6 +1,5 @@
 # Marketing Analysis
 
-## 📌 Overview
 A collection of SQL scripts analyzing and reporting full-funnel marketing performance to enable data-driven decisions across multiple markets.
 
 ## 📈 Focus Areas
